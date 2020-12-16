@@ -36,9 +36,13 @@ Die Software ist für die Arduino-Umgebung entwickelt worden. Daher muss diese i
 - Arduino-Entwicklungsumgebung
 - MS Visual-Code als IDE (empfohlen)
 - Extension ‚Arduino‘ vom VC-Marketplace
-- ‚M5StickC‘ über Boardmanager (‚F1‘)
-- ‚ArduinoJSON‘ (min. V6) über Lib-Manager (nicht Arduino_JSON oder andere)
-- MTheCam_LT Software in einem Verzeichnis mit gleichem Namen
+- ESP32 über ‚F1‘-Board Manager
+- ‚M5StickC‘ über ‚F1‘-Board Config
+- ‚M5StickC‘ über ‚F1‘-Lib Manager
+- ‚ArduinoJSON‘ über ‚F1‘-Lib Manager (min. v6, nicht Arduino_JSON oder andere)
+- MTheCam_LTSoftware in einem Verzeichnis mit gleichem Namen
+
+Sollte ‚ESP32‘ nicht im Board-Manager erscheinen, bitte die Zeile `https://dl.espressif.com/dl/package_esp32_index.json` in die (**globale!**) `settings.json` unter `arduino.additionalUrls` eintragen. Mehr unter <https://docs.m5stack.com/#/en/arduino/arduino_development>
 
 ### Bau der Firmware
 1. `SSID` und `PASSWORD` in der `MTheCam_LT.ino` mit den Werten des eigenen Wifi-Netzes belegen.
@@ -97,9 +101,13 @@ The software has been developed for the Arduino environment. Therefore it must b
 - Arduino development environment
 - MS Visual-Code as IDE (recommended)
 - Extension 'Arduino' from VC-Marketplace
-- 'M5StickC' via board manager ('F1')
-- 'ArduinoJSON' (min. V6) via lib manager (not Arduino_JSON or others)
+- ESP32 via 'F1'-board manager
+- 'M5StickC' via 'F1'-board config
+- 'M5StickC' via 'F1'-lib manager
+- 'ArduinoJSON' via 'F1'-lib manager (min. v6, not Arduino_JSON or others)
 - MTheCam_LT software in a directory with the same name
+
+If ‚ESP32‘ does not appear in theboard manager, please add the line `https://dl.espressif.com/dl/package_esp32_index.json` to the (**global!**) `settings.json` under ‚arduino.additionalUrls‘. More at <https://docs.m5stack.com/#/en/arduino/arduino_development>
 
 ### Building the firmware
 1. Replace `SSID` and `PASSWORD` in the file `MTheCam_LT.ino` with the details of your Wifi network.
