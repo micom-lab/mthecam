@@ -48,8 +48,8 @@ Sollte ‚ESP32‘ nicht im Board-Manager erscheinen, bitte die Zeile `https://d
 1. `SSID` und `PASSWORD` in der `MTheCam_LT.ino` mit den Werten des eigenen Wifi-Netzes belegen.
    ```
    // MTheCam_LT.ino
-   const char* _ssid         = "YourSSIDHere";
-   const char* _password       = "YourPasswordHere";
+   const char* _ssid     = "YourSSIDHere";
+   const char* _password = "YourPasswordHere";
    ```
 2. ‚F1‘-Upload über korrekten COMx Anschluss
 
@@ -113,8 +113,8 @@ If ‚ESP32‘ does not appear in theboard manager, please add the line `https:/
 1. Replace `SSID` and `PASSWORD` in the file `MTheCam_LT.ino` with the details of your Wifi network.
    ```
    // MTheCam_LT.ino
-   const char* _ssid         = "YourSSIDHere";
-   const char* _password       = "YourPasswordHere";
+   const char* _ssid     = "YourSSIDHere";
+   const char* _password = "YourPasswordHere";
    ```
 2. ‚F1‘-upload via COMx port
 
